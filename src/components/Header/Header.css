@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto+Slab");
+
+header{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 7vh;
+    width:100%;
+    background: rgba(33, 37, 41,0.5);
+    position: fixed;
+    margin:0;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    width: 80%;
+   
+}
+
+.CompanyLogo{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.25rem;
+    color:#fed136;
+
+
+}
+
+@media (max-width: 480px){
+    header{
+        background: rgb(33, 37, 41);
+    }
+}
+@media (max-width: 768px){
+    header{
+        background: rgb(34, 38, 42);
+    }
+}
+@media (max-width: 900px){
+
+}

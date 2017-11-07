@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow:row nowrap;
+}
+li {
+    list-style: none;
+    margin: 0 0.25rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 1rem;
+}
+li:hover{
+    color:#fed136;
+}
+.HamburgerMenu{
+    display: none;
+}
+i{
+    margin:5px;
+}
+.btn {
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #fed136;
+  text-decoration: none;
+  padding:2px;
+
+}
+.btn:hover {
+  background: #fed031;
+  text-decoration: none;
+}
+.btn span{
+    margin: auto 10px;
+}
+
+
+@media (min-width:300px)and (max-width:930px){
+    .topnav{
+        display: none;
+    }
+    .HamburgerMenu{
+        display: block;
+        color:white;
+    }
+    .topnav.responsive{
+        display: block;
+        width: 100%;
+        position: fixed;
+        left:-45px;
+        top:30px;
+    }
+     .topnav.responsive li{
+        width:100%;
+        background-color:#212529;
+        left:0;
+        margin:0;
+    
+     }
+    .topnav.responsive li:hover{
+        color:#fed136;
+     }
+}
